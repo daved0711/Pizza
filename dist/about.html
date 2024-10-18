@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET PIZZA</title>
+    <link rel="icon" href="../IMG/logoo.png">
+    <link rel="stylesheet" href="./output.css">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+<header class="header py-5 fixed w-full z-50 bg-white shadow-[0px_3px_8px_rgba(0,0,0,0.24)]">
+    <div class="container">
+        <div class="header__wrapper flex justify-between items-center">
+           <img class="w-[8rem]" src="../IMG/LOGO.png" alt="">
+            <nav>
+                <ul class="header__nav  bg-secondary flex flex-col gap-5 fixed w-40 text-center justify-center items-center
+                py-5 font-semibold duration-700 top-[6.3rem] right-[-100%] lg:static lg:trannsparent lg:flex-row lg:h-auto lg:w-auto lg:py-0 lg:bg-transparent">
+                    <li><a class="text-black/80 hover:text-primary" href="./home.html">HOME</a></li>
+                    <li><a class="text-black/80 hover:text-primary" href="./about.html">ABOUT</a></li>
+                    <li><a class="text-black/80 hover:text-primary" href="./menu.html">MENU</a></li>
+                    <li><a class="text-black/80 hover:text-primary" href="./contact.html">CONTACTS</a></li>
+                </ul>
+            </nav>
+            <div class="toggle_menu">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="transparent"></div>
+    </div>
+</header>
+
+<!-- PIZZA -->
+ <section class="pizza lg:pt-20 lg:py-10">
+    <div class="container">
+        <div class="pizza__wrapper gap-20 items-center justify-center py-10 lg:flex lg:flex-row">
+            <div class=" pizza__vid items-center flex px-12 lg:px-1">
+                <iframe class=""
+              width="600"
+              height="450"
+              src="https://www.youtube.com/embed/Y6MHE0-CQAs?si=RlFO6G3bjHTHHMPM"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            </div>
+            <div class="pizz__text">
+                <h1 class="text-primary leading-none lg:leading-none">SERVING GET PIZZAS BY THE SINCE 1985</h1>
+            <p>We would like to take this oppotunity to welcome you at our Pizza  house are offering a warm, friendly atmosphere to share a meal with family and friends
+                at any time of the day or evening
+            </p>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- OFFER -->
+ <section class="offer py-10 bg-tertiary text-white">
+    <div class="container">
+        <h2 class="text-3xl font-bold text-center">WE OFFER PEOPLE BEST WAY TO EAT BEST FOOD</h2>
+        <div class="offer__wrapper">
+            <div class="offer__tab py-10 flex justify-center gap-5">
+                <img class="offer__img active" id="tabs-1" src="../IMG/pizzaa.png" alt="">
+                <img class="offer__img" id="tabs-2"src="../IMG/burger.png" alt="">
+                <img class="offer__img " id="tabs-3"src="../IMG/chicken.png" alt="">
+                <img class="offer__img " id="tabs-4"src="../IMG/drinks.png" alt="">
+                <img class="offer__img " id="tabs-5"src="../IMG/cake.png" alt="">
+            </div>
+            <div class="offer__content">
+                <!-- pizza -->
+                <div class="offer__details active" id="tabs-1-content">
+                    <div class="offer__details--wrap">
+                        <div class="offer__foods">
+                            <img src="../IMG/prosciutto.png" alt="">
+                            <div class="offer__foods--text">
+                                <h4>PROSCIUTTO</h4>
+                                <p>$25.00</p>
+                                <ul class="mb-5 flex justify-center text-secondary">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <a class="btn readmore" href="">Read more</a>
+                            </div>
+                        </div>
+                        <div class="offer__foods">
+                            <img src="../IMG/prosciutto.png" alt="">
+                            <div class="offer__foods--text">
+                                <h4>PROSCIUTTO</h4>
+                                <p>$25.00</p>
+                                <ul class="mb-5 flex justify-center text-secondary">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <a class="btn readmore" href="">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- burgir -->
+                <div class="offer__details " id="tabs-2-content">
+                    <div class="offer__details--wrap">
+                        <div class="offer__foods">
+                            <img src="../IMG/CHEESE BURGER.png" alt="">
+                            <div class="offer__foods--text">
+                                <h4>CHEESE BURGER</h4>
+                                <p>$15.00</p>
+                                <ul class="mb-5 flex justify-center text-secondary">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <a class="btn readmore" href="">Read more</a>
+                            </div>
+                        </div>
+                        <div class="offer__foods">
+                            <img src="../IMG/CHEESE BURGER.png" alt="">
+                            <div class="offer__foods--text">
+                                <h4>CHEESE BURGER</h4>
+                                <p>$15.00</p>
+                                <ul class="mb-5 flex justify-center text-secondary">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <a class="btn readmore" href="">Read more</a>
+                            </div>
+                        </div>
+                  
+                    </div>
+                </div>
+                <!-- chicken -->
+                <div class="offer__details " id="tabs-3-content">
+                    <div class="offer__details--wrap">
+                        <div class="offer__foods">
+                            <img src="../IMG/CHICKEN WITH BREAD.png" alt="">
+                            <div class="offer__foods--text">
+                                <h4>CHICKEN FELLET</h4>
+                                <p>$45.00</p>
+                                <ul class="mb-5 flex justify-center text-secondary">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <a class="btn readmore" href="">Read more</a>
+                            </div>
+                        </div>
+                        <div class="offer__foods">
+                            <img src="../IMG/CHICKEN WITH BREAD.png" alt="">
+                            <div class="offer__foods--text">
+                                <h4>CHICKEN FELLET</h4>
+                                <p>$45.00</p>
+                                <ul class="mb-5 flex justify-center text-secondary">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <a class="btn readmore" href="">Read more</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- drinks -->
+                <div class="offer__details " id="tabs-4-content">
+                    <div class="offer__details--wrap">
+                        <div class="offer__foods">
+                            <img src="../IMG/ORANGE DRINK.png" alt="">
+                            <div class="offer__foods--text">
+                                <h4>ORANGE DRINK</h4>
+                                <p>$10.00</p>
+                                <ul class="mb-5 flex justify-center text-secondary">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <a class="btn readmore" href="">Read more</a>
+                            </div>
+                        </div>
+                        <div class="offer__foods">
+                            <img src="../IMG/ORANGE DRINK.png" alt="">
+                            <div class="offer__foods--text">
+                                <h4>ORANGE DRINK</h4>
+                                <p>$10.00</p>
+                                <ul class="mb-5 flex justify-center text-secondary">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <a class="btn readmore" href="">Read more</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- cake -->
+                <div class="offer__details " id="tabs-5-content">
+                    <div class="offer__details--wrap">
+                        <div class="offer__foods">
+                            <img src="../IMG/MUFFIN-CAKE.png" alt="">
+                            <div class="offer__foods--text">
+                                <h4>MUFFIN-CAKE</h4>
+                                <p>$20.00</p>
+                                <ul class="mb-5 flex justify-center text-secondary">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <a class="btn readmore" href="">Read more</a>
+                            </div>
+                        </div>
+                        <div class="offer__foods">
+                            <img src="../IMG/MUFFIN-CAKE.png" alt="">
+                            <div class="offer__foods--text">
+                                <h4>MUFFIN-CAKE</h4>
+                                <p>$20.00</p>
+                                <ul class="mb-5 flex justify-center text-secondary">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <a class="btn readmore" href="">Read more</a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>                         
+            </div>
+        </div>
+    </div>
+ </section>
+
+
+ <!-- client -->
+
+    <section class="client">
+        <div class="container">
+            <div class="client__wrapper">
+                <h2 class="text-center">CLIENT REVIEW</h2>
+                <div class="client__slider">
+              <div class="client__details text-center items-center flex justify-center">
+                <div class="client__img">
+                    <img class="rounded-full max-w-32 mx-auto" src="../IMG/feedback.png" alt="">
+                </div>
+                <div class="client__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid incidunt, dolore nobis laudantium aperiam magnam molestias dolor voluptates error ratione?</p>
+                </div>
+                <h4 class="pt-5">Turbo nanny</h4>
+                </div>
+              <div class="client__details text-center items-center flex justify-center">
+                <div class="client__img">
+                    <img class="rounded-full max-w-32 mx-auto" src="../IMG/feedback2.png" alt="">
+                </div>
+                <div class="client__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid incidunt, dolore nobis laudantium aperiam magnam molestias dolor voluptates error ratione?</p>
+                </div>
+                <h4 class="pt-5">ichigo</h4>
+                </div>
+              <div class="client__details text-center items-center flex justify-center">
+                <div class="client__img">
+                    <img class="rounded-full max-w-32 mx-auto" src="../IMG/feedback3.png" alt="">
+                </div>
+                <div class="client__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid incidunt, dolore nobis laudantium aperiam magnam molestias dolor voluptates error ratione?</p>
+                </div>
+                <h4 class="pt-5">pikachu</h4>
+                </div>
+              <div class="client__details text-center items-center flex justify-center">
+                <div class="client__img">
+                    <img class="rounded-full max-w-32 mx-auto" src="../IMG/feedback4.png" alt="">
+                </div>
+                <div class="client__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid incidunt, dolore nobis laudantium aperiam magnam molestias dolor voluptates error ratione?</p>
+                </div>
+                <h4 class="pt-5">grace</h4>
+                </div>
+              <div class="client__details text-center items-center flex justify-center">
+                <div class="client__img">
+                    <img class="rounded-full max-w-32 mx-auto" src="../IMG/feedback5.png" alt="">
+                </div>
+                <div class="client__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid incidunt, dolore nobis laudantium aperiam magnam molestias dolor voluptates error ratione?</p>
+                </div>
+                <h4 class="pt-5">chua</h4>
+                </div>
+              <div class="client__details text-center items-center flex justify-center">
+                <div class="client__img">
+                    <img class="rounded-full max-w-32 mx-auto" src="../IMG/feedback6.png" alt="">
+                </div>
+                <div class="client__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid incidunt, dolore nobis laudantium aperiam magnam molestias dolor voluptates error ratione?</p>
+                </div>
+                <h4 class="pt-5">meow</h4>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- story -->
+<section class="story py-10 pb-10">
+    <div class="container">
+        <h3 class="font-bold mb-10 text-4x1 text-center">OurStory</h3>
+        <div class="story__wrapper lg:grid lg:grid-cols-2 lg:gap-10 lg:items-center lg:justify-center">
+            <div class="story__content text-justify">
+            <div class="story__item">
+                <h4>1985<i class="fa-solid fa-chevron-up"></i></h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro eligendi fuga in sequi quasi aliquid dicta cum quia, dolorum nesciunt officiis iste quisquam quam consequatur, magni officia, ullam optio voluptatem.</p>
+            </div>
+            <div class="story__item">
+                <h4>1990<i class="fa-solid fa-chevron-up"></i></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aspernatur recusandae adipisci non ipsa laudantium dolorum cupiditate. Sequi, eum veniam!</p>
+            
+            </div>
+            <div class="story__item">
+                <h4>2000<i class="fa-solid fa-chevron-up"></i></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aspernatur recusandae adipisci non ipsa laudantium dolorum cupiditate. Sequi, eum veniam!</p>
+            <img src="" alt="">
+            </div>
+            <div class="story__item">
+                <h4>2010<i class="fa-solid fa-chevron-up"></i></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aspernatur recusandae adipisci non ipsa laudantium dolorum cupiditate. Sequi, eum veniam!</p>
+            <img src="" alt="">
+            </div>
+            <div class="story__item">
+                <h4>2021<i class="fa-solid fa-chevron-up"></i></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aspernatur recusandae adipisci non ipsa laudantium dolorum cupiditate. Sequi, eum veniam!</p>
+          
+            </div>
+            </div>
+            <img class="hidden lg:rounded-3xl lg:block lg:h-[30rem
+            ]" src="../IMG/meeting.png" alt="">
+        </div>
+    </div>
+</section>
+ <!-- CTA -->
+<section class=" cta bg-primary py-10  lg:pt-5 lg:pb-0 ">
+                    <div class="container">
+                        <div class="cta__wrapper  flex flex-col lg:flex-row lg:items-center lg:justify-center ">
+                            <div class="cta__img">
+                                <img class=" hidden lg:block lg:w-80"  src="../IMG/chef.png" alt="">
+                            </div>
+                            <div class="cta__text text-center pb-5">
+                                <h2>LET'S CONNECT</h2>
+                                <p>and get 10% off bill offers and invites</p>
+                                 
+                                <div class="cta__input bg-white justify-center  items-center flex p-5 ">
+                                    
+                                <form class=" " action="">
+                                    <input class=" " type="text" placeholder="YOUR EMAIL ADDRESS">
+                                    <a class="btn subscribe font-semibold"  href="">Subscribe</a>
+                                </form>
+                                </div>
+                                
+                           </div>
+                        </div>
+                    </div>
+</section>
+<!-- FOOTER -->
+<footer class="footer  ">
+                    <div class="container">
+                        <div class="footer__wrapper flex flex-col text-center items-center lg:flex lg:flex-col ">
+                            <div class="footer__img py-10">
+                                <img src="../IMG/LOGO.png" alt="">
+                            </div>
+                            <div class="footer__Text
+                            lg:flex lg:gap-10 lg:text-center lg:justify-center lg:items-center">
+                            <div class="footer__details py-10 ">                           
+                            <h3 class="font-semibold">ADDRESS</h3>
+                            <p>570 8th Ave, New York, NY</p>
+                            <p>10018 united States</p>
+                            </div>
+                            <div class="footer__details py-8">                           
+                            <h3 class="font-semibold">Book A TABLE</h3>
+                            <p>Dogfood Slider Foodtruck</p>
+                            <p>Under om Os Kan NI lasa</p>
+                            </div>
+                            <div class="footer__details py-10 ">                           
+                            <h3 class="font-semibold ">OPENING HOURS</h3>
+                            <p>Monday - Friday</p>
+                            <p>10.00 AM - 11.PM </p>
+                          
+                            </div>
+                        </div>
+                        <div class="footer__last">
+                              <h4 class="text-primary py-5 font-semibold">09123456987</h4>
+                        </div>
+                        </div>
+                    </div>
+</footer>
+<!-- SCRIPTY -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+ <script src="./js/slider.js"></script>
+ <script src="./js/toggleMenu.js"></script>
+ <script src="./js/offerTabs.js"></script>
+ <script src="./js/accordion.js"></script>
+</body>
+</html>
